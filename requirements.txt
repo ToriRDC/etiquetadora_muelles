@@ -11,3 +11,23 @@ mis-proyectos/
 ├── proyecto-b/
 │   └── ...
 
+-----GIT-----
+Con git ya tienes sincronización en ambas direcciones de forma nativa:
+
+Subir cambios locales → GitHub:
+  git add .
+  git commit -m "descripción del cambio"
+  git push
+
+Bajar cambios de GitHub → local:
+  git pull
+  Flujo típico de trabajo:
+
+Haces cambios en tus archivos:
+  git add . — preparas los cambios
+  git commit -m "mensaje" — guardas el estado
+  git push — subes a GitHub
+  Si trabajas desde otro equipo o editas directamente en GitHub, 
+    haces git pull antes de empezar a trabajar para traerte los últimos 
+    cambios.
+
