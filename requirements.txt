@@ -1,0 +1,13 @@
+mis-proyectos/
+├── proyecto-a/
+│   ├── src/              ← código fuente principal
+│   ├── tests/            ← pruebas unitarias
+│   ├── docs/             ← documentación
+│   ├── data/             ← datos de entrada/salida (si aplica)
+│   ├── .gitignore
+│   ├── requirements.txt  ← dependencias
+│   ├── README.md
+│   └── main.py
+├── proyecto-b/
+│   └── ...
+
