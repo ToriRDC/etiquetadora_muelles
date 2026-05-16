@@ -23,7 +23,7 @@ except ImportError:
     ImageTk = None
     PIL_UI_AVAILABLE = False
 
-# Impresión directa Windows (pywin32)
+# Impresión directa Windows (pywin32) gkhk
 try:
     import win32print
     import win32api
